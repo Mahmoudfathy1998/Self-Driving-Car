@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity"
+    android:background="@drawable/map">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/happycar"
+                />
+
+            <EditText
+                android:id="@+id/loginemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#000"
+                android:maxLines="1"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+
+            <EditText
+                android:id="@+id/loginpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="#000"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+                android:layout_marginLeft="10dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_signup"
+                android:text="Login"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

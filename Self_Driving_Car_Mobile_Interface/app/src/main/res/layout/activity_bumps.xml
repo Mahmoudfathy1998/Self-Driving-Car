@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.MainActivity"
+    android:background="@drawable/map">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="405dp">
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="50dp"
+                app:cardBackgroundColor="#04c4d9"
+                android:alpha="0.80"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp">
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="250dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="100dp"
+                    android:enabled="true"
+                    android:id="@+id/msg"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:textSize="35sp"/>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.DriverActivity"
+    android:background="@drawable/map">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textColor="#fff"
+                android:background="@drawable/background_signup"
+                android:layout_marginTop="290dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/adminprofileBtn"
+                android:text="Profile"/>
+            <Button
+                android:textColor="#fff"
+                android:background="@drawable/background_signup"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/driversBtn"
+                android:text="Drivers"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

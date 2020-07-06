@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "663990517218",
+    "firebase_url": "https://selfdrivingcar-421e0.firebaseio.com",
+    "project_id": "selfdrivingcar-421e0",
+    "storage_bucket": "selfdrivingcar-421e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663990517218:android:ba05c047cffa0cc0894dbb",
+        "android_client_info": {
+          "package_name": "com.example.carapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663990517218-978ch01bn1h49q18u8kcnkt67u17r8a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgaQeyYaoIE6l-v0etrF865gUfNWJaEf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663990517218-978ch01bn1h49q18u8kcnkt67u17r8a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
